@@ -172,22 +172,16 @@ If ( $Create )
 	SectionEnd
 	If ( $Global:Name ) # Check Name is set
 	{
-#		Write-Host 'Name Variable set to "'$global:Name' "'
 		If ( $Global:Address ) # Check Address is set
 		{
-#			Write-Host 'Address Variable set to "'$Global:Address' "'
 			If ( $Global:Port ) # Check Port is set
 			{
-#				Write-Host 'Port Variable set to "'$Global:Port' "'
 				If ( $Global:DB ) # Check DB is set
 				{	
-#					Write-Host 'DB Variable set to "'$Global:DB' "'
 					If ( $Global:Protocols ) # Check Protocols is set
 					{		
-#						Write-Host 'Protocols Variable set to "'$Global:Protocols' "'
 						If ( $Global:AppPath ) # Check AppPath is set
 						{		
-#							Write-Host 'AppPath Variable set to "'$Global:AppPath' "'
 							Creation
 						}
 						Else
