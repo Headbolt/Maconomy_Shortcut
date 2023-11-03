@@ -119,7 +119,7 @@ Function Creation {
 #
 Function Deletion {
 	Write-Host 'Attempting to Delete file "'c:\Users\Public\Desktop\$global:Name'"'
-	Remove-Item -Path c:\Users\Public\Desktop\$global:Name -Force -erroraction 'silentlycontinue'
+	Remove-Item -Path "c:\Users\Public\Desktop\$global:Name" -Force -erroraction 'silentlycontinue'
 }
 #
 #
